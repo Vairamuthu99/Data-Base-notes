@@ -1,0 +1,16 @@
+MYSQL
+Create schema 
+
+Create table
+CREATE TABLE `employeereports`.`employeedetails` (
+    RegNo int,
+    FirstName varchar(255),
+    LastName varchar(255),
+    City varchar(255),
+    Pincode int(255)
+);
+
+Create Query
+select * from employeedetails;
+INSERT INTO employeedetails (RegNo, FirstName, LastName, City, Pincode)
+VALUES ('2020002', 'Vairam', 'Muthu', 'KDNL', '627751')
